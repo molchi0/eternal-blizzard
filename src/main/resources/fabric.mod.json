@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "eternal_blizzard",
+	"version": "${version}",
+	"name": "Eternal Blizzard",
+	"description": "Always raining (snowing in cold biomes). At night a thunderstorm blizzard freezes players under open sky, like powder snow.",
+	"authors": [
+		"Eternal Blizzard contributors"
+	],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.eternalsnow.EternalBlizzard"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
